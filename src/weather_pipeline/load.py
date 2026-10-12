@@ -2,16 +2,16 @@ from airflow.providers.postgres.hooks.postgres import PostgresHook
 import json
 
 def load_weather_data(location_code, run_id, payload, records):
-
+    conn = None
     try:
         pg_hook = PostgresHook(postgres_conn_id = "weather_supabase")
         status, message = pg_hook.test_connection()
-        conn = pg_hook.get_conn()
         if not status:
             raise ValueError(f"Database Connection is down {message}")
+        conn = pg_hook.get_conn()
         print("Connection Check Pass!")
         print("Loading the data")
-        
+
         with conn.cursor() as cursor:
             #Ambil Location_id sesuai dengan location_code yang dipakai
             location_query = "SELECT location_id FROM dim_location WHERE location_code = %s;"
@@ -81,15 +81,17 @@ def load_weather_data(location_code, run_id, payload, records):
                 )
 
                 cursor.execute(facts_query, row_data)
-                #raise error disini jika fail pg_hooknya maka auto
+                #raise error disini auto
             
             conn.commit()
             print("Forecast daily data load complete")
     except Exception:
-        conn.rollback()
+        if conn is not None:
+            conn.rollback()
         raise
 
     finally:
-        conn.close()
+        if conn is not None:
+            conn.close()
         
         

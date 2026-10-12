@@ -1,0 +1,113 @@
+
+locations:
+  - location_code: "ID-BKY"
+    location_name: "Bengkayang"
+    administrative_level: "Kabupaten"
+    province_name: "Kalimantan Barat"
+    latitude: 0.82
+    longitude: 109.477
+    timezone: "Asia/Jakarta"
+
+  - location_code: "ID-KHU"
+    location_name: "Kapuas Hulu"
+    administrative_level: "Kabupaten"
+    province_name: "Kalimantan Barat"
+    latitude: 0.847
+    longitude: 112.932
+    timezone: "Asia/Jakarta"
+
+  - location_code: "ID-KKU"
+    location_name: "Kayong Utara"
+    administrative_level: "Kabupaten"
+    province_name: "Kalimantan Barat"
+    latitude: -1.25
+    longitude: 109.95
+    timezone: "Asia/Jakarta"
+
+  - location_code: "ID-KTP"
+    location_name: "Ketapang"
+    administrative_level: "Kabupaten"
+    province_name: "Kalimantan Barat"
+    latitude: -1.85
+    longitude: 109.983
+    timezone: "Asia/Jakarta"
+
+  - location_code: "ID-KKR"
+    location_name: "Kubu Raya"
+    administrative_level: "Kabupaten"
+    province_name: "Kalimantan Barat"
+    latitude: -0.07
+    longitude: 109.35
+    timezone: "Asia/Jakarta"
+
+  - location_code: "ID-LDK"
+    location_name: "Landak"
+    administrative_level: "Kabupaten"
+    province_name: "Kalimantan Barat"
+    latitude: 0.39
+    longitude: 109.95
+    timezone: "Asia/Jakarta"
+
+  - location_code: "ID-MLW"
+    location_name: "Melawi"
+    administrative_level: "Kabupaten"
+    province_name: "Kalimantan Barat"
+    latitude: -0.35
+    longitude: 111.75
+    timezone: "Asia/Jakarta"
+
+  - location_code: "ID-MPW"
+    location_name: "Mempawah"
+    administrative_level: "Kabupaten"
+    province_name: "Kalimantan Barat"
+    latitude: 0.35
+    longitude: 108.96
+    timezone: "Asia/Jakarta"
+
+  - location_code: "ID-SBS"
+    location_name: "Sambas"
+    administrative_level: "Kabupaten"
+    province_name: "Kalimantan Barat"
+    latitude: 1.36
+    longitude: 109.3
+    timezone: "Asia/Jakarta"
+
+  - location_code: "ID-SGU"
+    location_name: "Sanggau"
+    administrative_level: "Kabupaten"
+    province_name: "Kalimantan Barat"
+    latitude: 0.12
+    longitude: 110.6
+    timezone: "Asia/Jakarta"
+
+  - location_code: "ID-SKD"
+    location_name: "Sekadau"
+    administrative_level: "Kabupaten"
+    province_name: "Kalimantan Barat"
+    latitude: -0.03
+    longitude: 110.95
+    timezone: "Asia/Jakarta"
+
+  - location_code: "ID-STG"
+    location_name: "Sintang"
+    administrative_level: "Kabupaten"
+    province_name: "Kalimantan Barat"
+    latitude: 0.07
+    longitude: 111.5
+    timezone: "Asia/Jakarta"
+
+  - location_code: "ID-PNK"
+    location_name: "Pontianak"
+    administrative_level: "Kota"
+    province_name: "Kalimantan Barat"
+    latitude: -0.0263
+    longitude: 109.3425
+    timezone: "Asia/Jakarta"
+
+  - location_code: "ID-SKW"
+    location_name: "Singkawang"
+    administrative_level: "Kota"
+    province_name: "Kalimantan Barat"
+    latitude: 0.906
+    longitude: 108.987
+    timezone: "Asia/Jakarta"
