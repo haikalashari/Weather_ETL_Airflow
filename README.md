@@ -267,7 +267,7 @@ Create a PostgreSQL connection with the following settings:
 | Password | Your Supabase database password |
 | Port | The port specified by your selected connection method |
 
-Use the connection details provided by the Supabase dashboard. For a shared Supabase pooler, the username may need to include the project reference.
+Use the connection details provided by the Supabase dashboard i personaly using session pooler. For a shared Supabase pooler, the username may need to include the project reference.
 
 **Security:** Never commit database passwords, credentials, or secret connection strings to GitHub.
 
