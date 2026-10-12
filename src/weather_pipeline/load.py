@@ -1,6 +1,5 @@
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 import json
-
 def save_weather_data(location_code, run_id, payload, records):
     conn = None
     try:

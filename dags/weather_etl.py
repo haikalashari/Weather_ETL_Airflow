@@ -1,9 +1,9 @@
 from airflow.sdk import dag, task
 from airflow.providers.postgres.hooks.postgres import PostgresHook
-from weather_pipeline.extract import fetch_api_weather
-from weather_pipeline.load import save_weather_data
-from weather_pipeline.transform import transform_daily_weather
-from weather_pipeline.validate import validate_data_daily
+from src.weather_pipeline.extract import fetch_api_weather
+from src.weather_pipeline.load import save_weather_data
+from src.weather_pipeline.transform import transform_daily_weather
+from src.weather_pipeline.validate import validate_data_daily
 from datetime import datetime
 from uuid import uuid4
 
