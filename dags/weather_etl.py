@@ -65,6 +65,7 @@ def weather_etl():
 
             transform_data.append({
                 "location_code": location_code,
+                "payload": payload,
                 "records": records
             })
         return transform_data

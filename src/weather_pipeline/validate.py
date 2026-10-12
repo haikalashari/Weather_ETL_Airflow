@@ -1,4 +1,4 @@
-from extract import DAILY_VARIABLES
+from src.weather_pipeline.extract import DAILY_VARIABLES
 from datetime import datetime
 
 def validate_data_daily(records):

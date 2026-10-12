@@ -1,3 +1,2 @@
-airflow.providers.postgres.hooks.postgres
+apache-airflow-providers-postgres
 requests
-json

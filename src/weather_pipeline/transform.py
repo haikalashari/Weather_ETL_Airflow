@@ -1,4 +1,4 @@
-from extract import DAILY_VARIABLES
+from src.weather_pipeline.extract import DAILY_VARIABLES
 
 def transform_daily_weather(data):
     if "daily" not in data:
