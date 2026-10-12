@@ -191,7 +191,6 @@ weather-data-warehouse/
 │   └── weather_etl.py
 ├── src/
 │   └── weather_pipeline/
-│       ├── __init__.py
 │       ├── extract.py
 │       ├── transform.py
 │       ├── validate.py
