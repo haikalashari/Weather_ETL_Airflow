@@ -227,7 +227,7 @@ The Open-Meteo forecast endpoint used in this project is publicly accessible and
 
 ```bash
 git clone <YOUR_REPOSITORY_URL>
-cd weather-data-warehouse
+cd weather-etl
 ```
 
 ### 2. Configure the Database
